@@ -9,4 +9,15 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  	{
+  		"f-person/git-blame.nvim",
+  		event = "BufRead"
+  	},
+  	{
+  		"folke/neodev.nvim",
+  		event = "BufRead"
+  	},
+  	{
+  		"nvim-telescope/telescope-fzf-native.nvim"
+  	}
 }
